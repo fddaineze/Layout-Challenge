@@ -1,1 +1,191 @@
-/* CSS Custom */
+/* layout geral */
+
+body {
+    background: #343338;
+    font-size: .88rem;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.grid {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/* item */
+
+.box {
+    background: #2f2f31;
+    border: 5px solid #2f2f31;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.28);
+    box-sizing: border-box;
+}
+
+/* pré-visualização*/
+
+.display {
+    overflow: hidden;
+    position: relative;
+}
+
+.display img {
+    max-width: 100%;
+}
+
+/* display hover */
+
+.hover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hover:hover {
+    background: rgba(20, 20, 20, .6);
+    cursor: pointer;
+    border-bottom: 2px solid #0EBEFF;
+}
+
+.hover .hover-desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hover .hover-desc p {
+    cursor: pointer;
+    display: none;
+    background: rgba(17, 17, 17, .9);
+    color: #ccc;
+    font-size: 0.72rem;
+    padding: 2px 7px;
+    margin: 0 0 10px 0;
+    border-radius: 2px;
+}
+
+.hover .hover-desc p:hover {
+    background: rgba(30, 30, 30, .9);
+}
+
+.hover .hover-desc p:active {
+    transform: translate(0, 1px);
+}
+
+.hover:hover .hover-desc p {
+    display: inline-block;
+}
+
+/* descrição */
+
+.desc {
+    padding: 10px;
+}
+
+.name {
+    color: #999;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.name:hover {
+    color: #aaa;
+}
+
+/* estatísticas */
+
+.stats {
+    font-size: 0.85em;
+    text-align: right;
+}
+
+.stats a {
+    color: #999;
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+.stats a:hover {
+    color: #aaa;
+}
+
+/* display grande */
+
+.box-principal {
+    width: 98% !important;
+    margin: 0 1% 25px 1% !important;
+}
+
+.display-principal {
+    overflow: hidden;
+    position: relative;
+    height: 51vw;
+    max-height: 470px;
+}
+
+.display-principal img {
+    max-width: 100%;
+}
+
+/* responsivo */
+
+@media (min-width: 830px) {
+    .box {
+        width: 31.333333333333%;
+        margin: 0 1% 25px 1%;
+    }
+    .display {
+        height: calc(18vw - 3px);
+        max-height: 165px;
+    }
+}
+
+@media (max-width: 830px) {
+    .box {
+        width: 48%;
+        margin: 0 1% 25px 1%;
+    }
+    .display {
+        height: 25vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .box {
+        width: 98%;
+        margin: 0 1% 25px 1%;
+    }
+    .display {
+        height: 51vw;
+    }
+}
+
+/* corrige apenas o display */
+
+@media (max-width: 340px) {
+    .display {
+        height: 42vw;
+    }
+    .display-principal {
+        height: 42vw;
+    }
+}
+
+/* Atribuição */
+
+.attrib {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 7px;
+    color: #999;
+    line-height: 25px;
+    font-weight: normmal;
+}

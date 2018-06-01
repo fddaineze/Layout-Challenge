@@ -12,8 +12,7 @@
 :link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/OvKPMG)<br>
 :page_facing_up: Código: 
 [HTML](examples/codepen/index.html) -
-[CSS](examples/codepen/css/custom.css) -
-[JS](examples/codepen/js/script.js)<br>
+[CSS](examples/codepen/css/custom.css)<br>
 <img src="img/codepen.jpg" alt="Imagem de exemplo, layout pens do codepen" width=500>
 
 ## Pinterest Layout, [site foco](https://br.pinterest.com/) **(Responsivo)**
@@ -21,8 +20,7 @@
 :link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/RMNGRw)<br>
 :page_facing_up: Código: 
 [HTML](examples/pinterest/index.html) -
-[CSS](examples/pinterest/css/custom.css) -
-[JS](examples/pinterest/js/script.js)<br>
+[CSS](examples/pinterest/css/custom.css)<br>
 <img src="img/pinterest.jpg" alt="Imagem de exemplo, layout do pinterest" width=500>
 
 ## Tabela de Produtos, sem site foco **(Responsivo)**
@@ -30,6 +28,5 @@
 :link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/odgrpr)<br>
 :page_facing_up: Código: 
 [HTML](examples/produtos/index.html) -
-[CSS](examples/produtos/css/custom.css) -
-[JS](examples/produtos/js/script.js)<br>
+[CSS](examples/produtos/css/custom.css)<br>
 <img src="img/produtos.jpg" alt="Imagem de exemplo, layout opções de produtos" width=500>

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
+
+<head>
     <!-- head padronizado com Bootstrap/jQuery/FontAwesome -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Layout Challenge</title>
-      
+
     <!-- jQuery v3.3.1 minified CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-      
+
     <!-- FontAwesome v5.0.10 (all) CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
-    <!-- Latest compiled and minified CSS of Bootstrap v3.3.7 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS of Bootstrap v3.3.7 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
-    <!-- Latest compiled and minified JavaScript of Bootstrap v3.3.7 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      
+    <!-- Latest compiled and minified JavaScript of Bootstrap v3.3.7 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
+
     <!-- Custom archives -->
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/script.js"></script>
@@ -32,6 +33,59 @@
 </head>
 
 <body>
-    
+    <div class="background"></div>
+    <div class="backdrop"></div>
+
+    <div class="page">
+        <div class="container">
+            <div class="formulario">
+               
+                <!-- HEADER -->
+                <div class="header">
+                    <div class="logo"><div class="logo-area"><<span class="red">/</span><span class="big">LOGO</span>></div></div>
+                    <h3>Acesse sua conta</h3>
+                </div>
+                
+                <!-- FORMULARIO -->
+                <form method="post" action="" class="form">
+                    <div class="input">
+                        <i class="fa fa-envelope icone"></i>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <i class="fa fa-lock icone"></i>
+                        <input type="password" id="login-password" name="password" placeholder="Password">
+                        <i id="show-password" class="fa fa-eye icone"></i>
+                    </div>
+                    <div class="remember">
+                        <input type="checkbox" name="rememberme" id="rememberme">
+                        <label for="rememberme"><span>Lembre-me</span></label>
+                        <a href="#">Perdeu a senha?</a>
+                    </div>
+                    <input type="submit" name="login" value="Login" class="btn btn-login">
+                    <a href="#" class="btn btn-registrar">Register</a>
+                </form>
+                
+                <!-- SEPARADOR -->
+                <div class="separator"><span class="separator-text">OU</span></div>
+                
+                <!-- SOCIAL -->
+                <div class="socmed-login">
+                    <a href="#facebook" class="btn btn-face">
+                        <i class="fab fa-facebook-f btn-icone"></i>
+                        <span class="xs-hidden">Login com Facebook</span>
+                        <span class="xs-show">Facebook</span>
+                    </a>
+                    <a href="#g-plus" class="btn btn-google">
+                        <i class="fab fa-google btn-icone"></i>
+                        <span class="xs-hidden">Login com Google</span>
+                        <span class="xs-show">Google</span>
+                    </a>
+                </div>
+            </div>
+            <p class="attrib">&copy; 2018 Filipe Daineze</p>
+        </div>
+    </div>
 </body>
+
 </html>
