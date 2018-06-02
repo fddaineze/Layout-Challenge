@@ -235,6 +235,10 @@ body {
     vertical-align: middle;
 }
 
+.fa-facebook-f, fa-google {
+    text-align: center;
+}
+
 .formulario .socmed-login .btn span {
     display: inline-block;
     width: calc(100% - 55px);
