@@ -1,6 +1,7 @@
 ## Painel de Login, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + jQuery (sem framework)<br>
-:link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/BrgEXK)<br>
+:link: veja no [codepen.io](https://codepen.io/jimmyfilips/pen/BrgEXK)<br>
+:paperclip: Demo: [veja funcionando](https://jimmyfilips.github.io/demo/layout-login/)<br>
 :page_facing_up: Código: 
 [HTML](examples/login/index.html) -
 [CSS](examples/login/css/custom.css) -
@@ -9,7 +10,8 @@
 <br><br>
 ## Pens, [site foco](https://codepen.io/jimmyfilips/) **(Responsivo)**
 :computer: CSS + HTML5 + Flexbox (sem framework)<br>
-:link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/OvKPMG)<br>
+:link: veja no [codepen.io](https://codepen.io/jimmyfilips/pen/OvKPMG)<br>
+:paperclip: Demo: [veja funcionando](https://jimmyfilips.github.io/demo/layout-codepen/)<br>
 :page_facing_up: Código: 
 [HTML](examples/codepen/index.html) -
 [CSS](examples/codepen/css/custom.css)<br>
@@ -17,7 +19,8 @@
 <br><br>
 ## Pinterest Layout, [site foco](https://br.pinterest.com/) **(Responsivo)**
 :computer: CSS + HTML5 (sem framework)<br>
-:link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/RMNGRw)<br>
+:link: veja no [codepen.io](https://codepen.io/jimmyfilips/pen/RMNGRw)<br>
+:paperclip: Demo: [veja funcionando](https://jimmyfilips.github.io/demo/layout-pinterest/)<br>
 :page_facing_up: Código: 
 [HTML](examples/pinterest/index.html) -
 [CSS](examples/pinterest/css/custom.css)<br>
@@ -25,7 +28,8 @@
 <br><br>
 ## Tabela de Produtos, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + Bootstrap<br>
-:link: para ver funcionando, [clique aqui](https://codepen.io/jimmyfilips/pen/odgrpr)<br>
+:link: veja no [codepen.io](https://codepen.io/jimmyfilips/pen/odgrpr)<br>
+:paperclip: Demo: [veja funcionando](https://jimmyfilips.github.io/demo/layout-produtos/)<br>
 :page_facing_up: Código: 
 [HTML](examples/produtos/index.html) -
 [CSS](examples/produtos/css/custom.css)<br>
