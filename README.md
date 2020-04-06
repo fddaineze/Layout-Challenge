@@ -1,6 +1,4 @@
-<p style="text-align: center;">
-  <img src="https://badgen.net/github/license/micromatch/micromatch" alt="license badge">
-</p>
+![last commit badge](https://badgen.net/github/last-commit/fddaineze/Layout-Challenge) ![commits badge](https://badgen.net/github/commits/fddaineze/Layout-Challenge) ![license badge](https://badgen.net/github/license/fddaineze/Layout-Challenge)
 
 ## Painel de Login, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + jQuery (sem framework)<br>
