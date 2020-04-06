@@ -1,3 +1,5 @@
+[license badge](https://badgen.net/github/license/micromatch/micromatch)
+
 ## Painel de Login, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + jQuery (sem framework)<br>
 :link: veja no [codepen.io](https://codepen.io/jimmyfilips/pen/BrgEXK)<br>
