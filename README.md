@@ -1,5 +1,4 @@
-[license badge](https://badgen.net/github/license/micromatch/micromatch)
-<img src="https://badgen.net/github/license/micromatch/micromatch" alt="license badge">
+<img src="https://badgen.net/github/license/micromatch/micromatch" alt="license badge" style=text-align:center>
 
 ## Painel de Login, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + jQuery (sem framework)<br>
