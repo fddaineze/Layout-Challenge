@@ -1,4 +1,7 @@
-![last commit badge](https://badgen.net/github/last-commit/fddaineze/Layout-Challenge) ![commits badge](https://badgen.net/github/commits/fddaineze/Layout-Challenge) ![license badge](https://badgen.net/github/license/fddaineze/Layout-Challenge)
+![GitHub top language](https://img.shields.io/github/languages/top/fddaineze/Layout-Challenge)
+![last commit badge](https://badgen.net/github/last-commit/fddaineze/Layout-Challenge)
+![commits badge](https://badgen.net/github/commits/fddaineze/Layout-Challenge)
+![license badge](https://badgen.net/github/license/fddaineze/Layout-Challenge)
 
 ## Painel de Login, sem site foco **(Responsivo)**
 :computer: CSS + HTML5 + jQuery (sem framework)<br>
